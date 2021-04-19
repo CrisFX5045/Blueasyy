@@ -1,0 +1,136 @@
+@import 'fonts';
+@import 'vars';
+@import 'media-queries';
+
+$top-menu: #353f46;
+$e: #4bcaff;
+$selected-menu: #4bcaff;
+$header-copy: #404a52;
+$dark-copy: #515f67;
+$white-copy: #ffffff;
+$just-default-section: #515f67;
+$visit-me: #353f46;
+$twitter-section: #4bcaff;
+$testimonial-name: #4bcaff;
+$message-button: #4bcaff;
+$footer: #353f47;
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem;
+    padding-left: 0.3rem;
+    margin-left: 28px;
+    font-size: 14px;
+}
+
+.navbar-nav{
+    padding-left: 25px;
+    font-family: 'NotoBold';
+
+}
+.col-sm-3{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.barra-arriba{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'NotoBold';
+   
+
+   
+}
+
+
+
+
+
+.barra-arriba strong{
+    color: $e;
+}
+a:hover{
+    color: $selected-menu;
+    border: 2px solid $selected-menu; 
+}
+
+.nav-link:hover {
+    color: $selected-menu!important;
+    padding-left: 35px!important;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    margin-left: 28rem;
+}
+
+
+.col-sm-1{
+    text-decoration: none;
+    color: white; 
+}
+.bg-dark {
+    background-color: $top-menu!important;
+    padding: 3rem;
+  
+}
+
+.carousel slide{
+    align-items: center;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-item {
+ margin-right: 0%;
+}
+
+.txt-barra-central{
+position: absolute;
+text-align: center!important;
+margin-left: auto;
+margin-right: auto;
+font-family: "NotoLight";
+
+    h5{
+        font-size: 42px;
+        color: rgb(255, 255, 255);
+        background: #273744b2;
+    }
+}
+.barra-abajo{
+    background: $selected-menu;
+    padding: 6rem;
+
+    
+
+    }
+
+.linea-blanca{
+    width: 4.2%;
+    padding: 1.5px;
+    margin: 14px;
+    margin-top: -33px;
+    color: white;
+    opacity: 100%;
+}
+
+p{
+    font-family: "NotoRegular";
+    font-size: 12px;   
+}
+
+h5{
+    font-family: "NotoRegular";
+    font-size: 24px;  
+}
